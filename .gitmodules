@@ -1,0 +1,57 @@
+[submodule "InfiniTAM"]
+	path = InfiniTAM
+	url = git@github.com:victorprad/InfiniTAM.git
+[submodule "ethz-asl/roscpp-nodewrap"]
+	path = ethz-asl/roscpp-nodewrap
+	url = git@github.com:ethz-asl/roscpp-nodewrap.git
+[submodule "ethz-asl/grid_map"]
+	path = ethz-asl/grid_map
+	url = git@github.com:ethz-asl/grid_map.git
+[submodule "ethz-asl/lab-infrastructure"]
+	path = ethz-asl/lab-infrastructure
+	url = git@github.com:ethz-asl/lab-infrastructure.git
+[submodule "ethz-asl/elevation_mapping"]
+	path = ethz-asl/elevation_mapping
+	url = git@github.com:ethz-asl/elevation_mapping.git
+[submodule "ethz-asl/okvis_ros"]
+	path = ethz-asl/okvis_ros
+	url = git@github.com:ethz-asl/okvis_ros.git
+[submodule "ethz-asl/ethzasl_msf"]
+	path = ethz-asl/ethzasl_msf
+	url = git@github.com:ethz-asl/ethzasl_msf.git
+[submodule "ethz-asl/rovio"]
+	path = ethz-asl/rovio
+	url = git@github.com:ethz-asl/rovio.git
+[submodule "ethz-asl/okvis"]
+	path = ethz-asl/okvis
+	url = git@github.com:ethz-asl/okvis.git
+[submodule "ethz-asl/asl-student-templates"]
+	path = ethz-asl/asl-student-templates
+	url = git@github.com:ethz-asl/asl-student-templates.git
+[submodule "ethz-asl/ethzasl_ptam"]
+	path = ethz-asl/ethzasl_ptam
+	url = git@github.com:ethz-asl/ethzasl_ptam.git
+[submodule "ethz-asl/opengv.git"]
+	path = ethz-asl/opengv.git
+	url = git@github.com:ethz-asl/opengv.git
+[submodule "ethz-asl/ros_best_practices"]
+	path = ethz-asl/ros_best_practices
+	url = git@github.com:ethz-asl/ros_best_practices.git
+[submodule "ScaViSLAM"]
+	path = ScaViSLAM
+	url = git@github.com:strasdat/ScaViSLAM.git
+[submodule "Kintinuous"]
+	path = Kintinuous
+	url = git@github.com:mp3guy/Kintinuous.git
+[submodule "ElasticFusion"]
+	path = ElasticFusion
+	url = git@github.com:mp3guy/ElasticFusion.git
+[submodule "ros-perception/slam_gmapping"]
+	path = ros-perception/slam_gmapping
+	url = git@github.com:ros-perception/slam_gmapping.git
+[submodule "ros-perception/openslam_gmapping"]
+	path = ros-perception/openslam_gmapping
+	url = git@github.com:ros-perception/openslam_gmapping.git
+[submodule "Sophus"]
+	path = Sophus
+	url = git@github.com:strasdat/Sophus.git
