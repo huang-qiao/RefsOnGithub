@@ -46,9 +46,7 @@
 [submodule "ElasticFusion"]
 	path = ElasticFusion
 	url = git@github.com:mp3guy/ElasticFusion.git
-[submodule "ros-perception/slam_gmapping"]
-	path = ros-perception/slam_gmapping
-	url = git@github.com:ros-perception/slam_gmapping.git
+        branch = master
 [submodule "ros-perception/openslam_gmapping"]
 	path = ros-perception/openslam_gmapping
 	url = git@github.com:ros-perception/openslam_gmapping.git
@@ -94,3 +92,29 @@
 [submodule "Itseez/opencv_extra"]
 	path = Itseez/opencv_extra
 	url = https://github.com/Itseez/opencv_extra.git
+[submodule "tum-vision/dvo_slam"]
+    path = tum-vision/dvo_slam
+    url = https://github.com/tum-vision/dvo_slam.git
+	jade-devel = jade-devel
+[submodule "tum-vision/fastfusion"]
+    path = tum-vision/fastfusion
+    url = https://github.com/tum-vision/fastfusion.git
+[submodule "tum-vision/kfusion_ros"]
+    path = tum-vision/kfusion_ros
+    url = https://github.com/tum-vision/kfusion_ros.git
+[submodule "tum-vision/rgbd_demo"]
+    path = tum-vision/rgbd_demo
+    url = https://github.com/tum-vision/rgbd_demo.git
+[submodule "ros-perception/slam_gmapping"]
+	path = ros-perception/slam_gmapping
+	url = https://github.com/ros-perception/slam_gmapping.git
+	branch = hydro-devel
+[submodule "folly"]
+	path = folly
+	url = https://github.com/facebook/folly.git
+[submodule "raulmur/ORB_SLAM"]
+	path = raulmur/ORB_SLAM
+	url = https://github.com/raulmur/ORB_SLAM.git
+[submodule "raulmur/ORB_SLAM2"]
+	path = raulmur/ORB_SLAM2
+	url = https://github.com/raulmur/ORB_SLAM2.git
