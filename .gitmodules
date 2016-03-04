@@ -55,3 +55,24 @@
 [submodule "Sophus"]
 	path = Sophus
 	url = git@github.com:strasdat/Sophus.git
+[submodule "eigen"]
+	path = eigen
+	url = git@github.com:RLovelett/eigen.git
+[submodule "introlab/rtabmap_ros"]
+	path = introlab/rtabmap_ros
+	url = https://github.com/introlab/rtabmap_ros.git
+[submodule "introlab/rtabmap"]
+	path = introlab/rtabmap
+	url = https://github.com/introlab/rtabmap.git
+[submodule "dorian3d/DBoW2"]
+	path = dorian3d/DBoW2
+	url = https://github.com/dorian3d/DBoW2.git
+[submodule "dorian3d/DLoopDetector"]
+	path = dorian3d/DLoopDetector
+	url = https://github.com/dorian3d/DLoopDetector.git
+[submodule "dorian3d/DLib"]
+	path = dorian3d/DLib
+	url = https://github.com/dorian3d/DLib.git
+[submodule "OpenSeqSLAM"]
+	path = OpenSeqSLAM
+	url = https://github.com/subokita/OpenSeqSLAM.git
