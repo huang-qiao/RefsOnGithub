@@ -82,3 +82,6 @@
 [submodule "uzh-rpg/rpg_svo"]
 	path = uzh-rpg/rpg_svo
 	url = https://github.com/uzh-rpg/rpg_svo.git
+[submodule "mrpt"]
+	path = mrpt
+	url = https://github.com/MRPT/mrpt.git
