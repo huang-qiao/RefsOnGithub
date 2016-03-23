@@ -85,3 +85,12 @@
 [submodule "mrpt"]
 	path = mrpt
 	url = https://github.com/MRPT/mrpt.git
+[submodule "Itseez/opencv"]
+	path = Itseez/opencv
+	url = https://github.com/Itseez/opencv.git
+[submodule "Itseez/opencv_contrib"]
+	path = Itseez/opencv_contrib
+	url = https://github.com/Itseez/opencv_contrib.git
+[submodule "Itseez/opencv_extra"]
+	path = Itseez/opencv_extra
+	url = https://github.com/Itseez/opencv_extra.git
