@@ -115,3 +115,7 @@
 [submodule "raulmur/ORB_SLAM2"]
 	path = raulmur/ORB_SLAM2
 	url = https://github.com/raulmur/ORB_SLAM2.git
+[submodule "mrpt"]
+	path = mrpt
+	url = https://github.com/MRPT/mrpt.git
+        branch = master
