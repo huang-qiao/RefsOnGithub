@@ -119,3 +119,33 @@
 	path = mrpt
 	url = https://github.com/MRPT/mrpt.git
         branch = master
+[submodule "omnimapper"]
+	path = omnimapper
+	url = https://github.com/CognitiveRobotics/omnimapper.git
+[submodule "object_tracking_2D"]
+	path = object_tracking_2D
+	url = https://github.com/CognitiveRobotics/object_tracking_2D.git
+[submodule "video_segment"]
+	path = video_segment
+	url = https://github.com/videosegmentation/video_segment.git
+[submodule "cpu_tsdf"]
+	path = cpu_tsdf
+	url = https://github.com/sdmiller/cpu_tsdf.git
+[submodule "aerialSLAM"]
+	path = aerialSLAM
+	url = https://github.com/SMSmith/aerialSLAM.git
+[submodule "cvpr2015-opensfm"]
+	path = cvpr2015-opensfm
+	url = https://github.com/mleotta/cvpr2015-opensfm.git
+[submodule "ORB-Feature-LK-Tracking-with-SAM"]
+	path = ORB-Feature-LK-Tracking-with-SAM
+	url = https://github.com/RoboStat/ORB-Feature-LK-Tracking-with-SAM.git
+[submodule "ros_slam"]
+	path = ros_slam
+	url = https://github.com/RoboStat/ros_slam.git
+[submodule "modern-occupancy-grid"]
+	path = modern-occupancy-grid
+	url = https://github.com/wecacuee/modern-occupancy-grid.git
+[submodule "ksrobot"]
+	path = ksrobot
+	url = https://github.com/kouroshs/ksrobot.git
