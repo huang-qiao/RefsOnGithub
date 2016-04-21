@@ -16,6 +16,7 @@
 [submodule "ethz-asl/okvis_ros"]
 	path = ethz-asl/okvis_ros
 	url = git@github.com:ethz-asl/okvis_ros.git
+	ignore = dirty
 [submodule "ethz-asl/ethzasl_msf"]
 	path = ethz-asl/ethzasl_msf
 	url = git@github.com:ethz-asl/ethzasl_msf.git
@@ -90,18 +91,18 @@
 	path = Itseez/opencv_extra
 	url = https://github.com/Itseez/opencv_extra.git
 [submodule "tum-vision/dvo_slam"]
-    path = tum-vision/dvo_slam
-    url = https://github.com/tum-vision/dvo_slam.git
-	jade-devel = jade-devel
+    	path = tum-vision/dvo_slam
+    	url = https://github.com/tum-vision/dvo_slam.git
+	branch = jade-devel
 [submodule "tum-vision/fastfusion"]
-    path = tum-vision/fastfusion
-    url = https://github.com/tum-vision/fastfusion.git
+	path = tum-vision/fastfusion
+	url = https://github.com/tum-vision/fastfusion.git
 [submodule "tum-vision/kfusion_ros"]
-    path = tum-vision/kfusion_ros
-    url = https://github.com/tum-vision/kfusion_ros.git
+	path = tum-vision/kfusion_ros
+	url = https://github.com/tum-vision/kfusion_ros.git
 [submodule "tum-vision/rgbd_demo"]
-    path = tum-vision/rgbd_demo
-    url = https://github.com/tum-vision/rgbd_demo.git
+	path = tum-vision/rgbd_demo
+	url = https://github.com/tum-vision/rgbd_demo.git
 [submodule "ros-perception/slam_gmapping"]
 	path = ros-perception/slam_gmapping
 	url = https://github.com/ros-perception/slam_gmapping.git
@@ -140,6 +141,7 @@
 [submodule "ORB-Feature-LK-Tracking-with-SAM"]
 	path = ORB-Feature-LK-Tracking-with-SAM
 	url = https://github.com/RoboStat/ORB-Feature-LK-Tracking-with-SAM.git
+	branch = SAM
 [submodule "ros_slam"]
 	path = ros_slam
 	url = https://github.com/RoboStat/ros_slam.git
@@ -149,3 +151,47 @@
 [submodule "ksrobot"]
 	path = ksrobot
 	url = https://github.com/kouroshs/ksrobot.git
+[submodule "rosjava/android_core"]
+	path = rosjava/android_core
+	url = https://github.com/rosjava/android_core.git
+	branch = indigo
+[submodule "rosjava/rosjava_messages"]
+	path = rosjava/rosjava_messages
+	url = https://github.com/rosjava/rosjava_messages.git
+	branch = indigo
+[submodule "rosjava/rosjava_core"]
+	path = rosjava/rosjava_core
+	url = https://github.com/rosjava/rosjava_core.git
+	branch = indigo
+[submodule "rosjava/android_apps"]
+	path = rosjava/android_apps
+	url = https://github.com/rosjava/android_apps.git
+	branch = indigo
+[submodule "rosjava/rosjava_mvn_repo"]
+	path = rosjava/rosjava_mvn_repo
+	url = https://github.com/rosjava/rosjava_mvn_repo.git
+	branch = master
+[submodule "rosjava/android_remocons"]
+	path = rosjava/android_remocons
+	url = https://github.com/rosjava/android_remocons.git
+	branch = indigo
+[submodule "rosjava/genjava"]
+	path = rosjava/genjava
+	url = https://github.com/rosjava/genjava.git
+	branch = indigo
+[submodule "rosjava/rosjava"]
+	path = rosjava/rosjava
+	url = https://github.com/rosjava/rosjava.git
+	branch = indigo
+[submodule "rosjava/rosjava_bootstrap"]
+	path = rosjava/rosjava_bootstrap
+	url = https://github.com/rosjava/rosjava_bootstrap.git
+	branch = indigo
+[submodule "rosjava/rosjava_build_tools"]
+	path = rosjava/rosjava_build_tools
+	url = https://github.com/rosjava/rosjava_build_tools.git
+	branch = indigo
+[submodule "rosjava/rosjava_extras"]
+	path = rosjava/rosjava_extras
+	url = https://github.com/rosjava/rosjava_extras.git
+	branch = indigo
