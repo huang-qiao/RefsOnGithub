@@ -195,3 +195,26 @@
 	path = rosjava/rosjava_extras
 	url = https://github.com/rosjava/rosjava_extras.git
 	branch = indigo
+[submodule "CognitiveRobotics/object_tracking_2D"]
+	path = CognitiveRobotics/object_tracking_2D
+	url = https://github.com/CognitiveRobotics/object_tracking_2D.git
+[submodule "CognitiveRobotics/omnimapper"]
+	path = CognitiveRobotics/omnimapper
+	url = https://github.com/CognitiveRobotics/omnimapper.git
+[submodule "CognitiveRobotics/organized_segmentation_tools"]
+	path = CognitiveRobotics/organized_segmentation_tools
+	url = https://github.com/CognitiveRobotics/organized_segmentation_tools.git
+[submodule "ccny-ros-pkg/imu_tools"]
+	path = ccny-ros-pkg/imu_tools
+	url = https://github.com/ccny-ros-pkg/imu_tools.git
+	branch = jade
+[submodule "ccny-ros-pkg/scan_tools"]
+	path = ccny-ros-pkg/scan_tools
+	url = https://github.com/ccny-ros-pkg/scan_tools.git
+	branch = indigo
+[submodule "ccny-ros-pkg/ccny_rgbd_tools"]
+	path = ccny-ros-pkg/ccny_rgbd_tools
+	url = https://github.com/ccny-ros-pkg/ccny_rgbd_tools.git
+[submodule "ccny-ros-pkg/rgbdtools"]
+	path = ccny-ros-pkg/rgbdtools
+	url = https://github.com/ccny-ros-pkg/rgbdtools.git
