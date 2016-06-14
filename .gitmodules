@@ -218,3 +218,6 @@
 [submodule "ccny-ros-pkg/rgbdtools"]
 	path = ccny-ros-pkg/rgbdtools
 	url = https://github.com/ccny-ros-pkg/rgbdtools.git
+[submodule "ros-planning/navigation"]
+	path = ros-planning/navigation
+	url = https://github.com/ros-planning/navigation.git
