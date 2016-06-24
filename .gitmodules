@@ -47,7 +47,6 @@
 [submodule "ElasticFusion"]
 	path = ElasticFusion
 	url = git@github.com:mp3guy/ElasticFusion.git
-        branch = master
 [submodule "ros-perception/openslam_gmapping"]
 	path = ros-perception/openslam_gmapping
 	url = git@github.com:ros-perception/openslam_gmapping.git
@@ -91,9 +90,8 @@
 	path = Itseez/opencv_extra
 	url = https://github.com/Itseez/opencv_extra.git
 [submodule "tum-vision/dvo_slam"]
-    	path = tum-vision/dvo_slam
-    	url = https://github.com/tum-vision/dvo_slam.git
-	branch = jade-devel
+    path = tum-vision/dvo_slam
+    url = https://github.com/tum-vision/dvo_slam.git
 [submodule "tum-vision/fastfusion"]
 	path = tum-vision/fastfusion
 	url = https://github.com/tum-vision/fastfusion.git
@@ -119,7 +117,7 @@
 [submodule "mrpt"]
 	path = mrpt
 	url = https://github.com/MRPT/mrpt.git
-        branch = master
+    branch = master
 [submodule "omnimapper"]
 	path = omnimapper
 	url = https://github.com/CognitiveRobotics/omnimapper.git
@@ -221,3 +219,6 @@
 [submodule "ros-planning/navigation"]
 	path = ros-planning/navigation
 	url = https://github.com/ros-planning/navigation.git
+[submodule "SDL"]
+	path = SDL
+	url = git@github.com:huang-qiao/SDL.git
