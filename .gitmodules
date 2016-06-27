@@ -222,3 +222,6 @@
 [submodule "SDL"]
 	path = SDL
 	url = git@github.com:huang-qiao/SDL.git
+[submodule "roscpp_android"]
+	path = roscpp_android
+	url = git@github.com:ekumenlabs/roscpp_android.git
