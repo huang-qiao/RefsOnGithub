@@ -92,6 +92,7 @@
 [submodule "tum-vision/dvo_slam"]
     path = tum-vision/dvo_slam
     url = https://github.com/tum-vision/dvo_slam.git
+    branch = jade-devel
 [submodule "tum-vision/fastfusion"]
 	path = tum-vision/fastfusion
 	url = https://github.com/tum-vision/fastfusion.git
@@ -219,6 +220,7 @@
 [submodule "ros-planning/navigation"]
 	path = ros-planning/navigation
 	url = https://github.com/ros-planning/navigation.git
+    branch = jade-devel
 [submodule "SDL"]
 	path = SDL
 	url = git@github.com:huang-qiao/SDL.git
