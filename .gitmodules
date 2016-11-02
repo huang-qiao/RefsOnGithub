@@ -80,15 +80,6 @@
 [submodule "uzh-rpg/rpg_svo"]
 	path = uzh-rpg/rpg_svo
 	url = https://github.com/uzh-rpg/rpg_svo.git
-[submodule "Itseez/opencv"]
-	path = Itseez/opencv
-	url = https://github.com/Itseez/opencv.git
-[submodule "Itseez/opencv_contrib"]
-	path = Itseez/opencv_contrib
-	url = https://github.com/Itseez/opencv_contrib.git
-[submodule "Itseez/opencv_extra"]
-	path = Itseez/opencv_extra
-	url = https://github.com/Itseez/opencv_extra.git
 [submodule "tum-vision/dvo_slam"]
     path = tum-vision/dvo_slam
     url = https://github.com/tum-vision/dvo_slam.git
@@ -227,3 +218,6 @@
 [submodule "roscpp_android"]
 	path = roscpp_android
 	url = git@github.com:ekumenlabs/roscpp_android.git
+[submodule "cartographer"]
+	path = cartographer
+	url = git@github.com:googlecartographer/cartographer.git
