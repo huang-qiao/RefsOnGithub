@@ -221,3 +221,9 @@
 [submodule "cartographer"]
 	path = cartographer
 	url = git@github.com:googlecartographer/cartographer.git
+[submodule "googlecartographer/cartographer"]
+	path = googlecartographer/cartographer
+	url = git@github.com:googlecartographer/cartographer.git
+[submodule "googlecartographer/cartographer_ros"]
+	path = googlecartographer/cartographer_ros
+	url = git@github.com:googlecartographer/cartographer_ros.git
