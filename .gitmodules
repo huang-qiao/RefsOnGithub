@@ -62,15 +62,6 @@
 [submodule "introlab/rtabmap"]
 	path = introlab/rtabmap
 	url = https://github.com/introlab/rtabmap.git
-[submodule "dorian3d/DBoW2"]
-	path = dorian3d/DBoW2
-	url = https://github.com/dorian3d/DBoW2.git
-[submodule "dorian3d/DLoopDetector"]
-	path = dorian3d/DLoopDetector
-	url = https://github.com/dorian3d/DLoopDetector.git
-[submodule "dorian3d/DLib"]
-	path = dorian3d/DLib
-	url = https://github.com/dorian3d/DLib.git
 [submodule "OpenSeqSLAM"]
 	path = OpenSeqSLAM
 	url = https://github.com/subokita/OpenSeqSLAM.git
