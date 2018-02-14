@@ -1,0 +1,12 @@
+- git:
+    local-name: cartographer
+    uri: https://github.com/googlecartographer/cartographer.git
+    version: master
+- git:
+    local-name: rtabmap
+    uri: https://github.com/introlab/rtabmap.git
+    version: master
+- git:
+    local-name: ScaViSLAM
+    uri: https://github.com/strasdat/ScaViSLAM.git
+    version: master

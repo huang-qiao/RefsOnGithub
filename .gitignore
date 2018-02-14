@@ -1,0 +1,6 @@
+
+.rosinstall
+geometry/
+ceres-solver/
+gtsam/
+
