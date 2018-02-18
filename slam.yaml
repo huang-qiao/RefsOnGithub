@@ -10,3 +10,8 @@
     local-name: ScaViSLAM
     uri: https://github.com/strasdat/ScaViSLAM.git
     version: master
+- git:
+    local-name: pcl
+    uri: https://github.com/PointCloudLibrary/pcl.git
+    version: master
+
