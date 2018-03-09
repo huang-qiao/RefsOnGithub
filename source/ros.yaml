@@ -1,22 +1,26 @@
 # roscpp
 - git:
-    local-name: roscpp/roscpp_core
+    local-name: ros/roscpp/roscpp_core
     uri: https://github.com/ros/roscpp_core.git
     version: kinetic-devel
 - git:
-    local-name: roscpp/ros_comm
+    local-name: ros/roscpp/ros_comm
     uri: https://github.com/ros/ros_comm.git
     version: lunar-devel
 - git:
-    local-name: roscpp/console_bridge
+    local-name: ros/roscpp/console_bridge
     uri: https://github.com/ros/console_bridge.git
     version: master
 - git:
-    local-name: roscpp/geometry2
+    local-name: ros/roscpp/geometry
+    uri: https://github.com/ros/geometry.git
+    version: indigo-devel
+- git:
+    local-name: ros/roscpp/geometry2
     uri: https://github.com/ros/geometry2.git
     version: indigo-devel
 - git:
-    local-name: roscpp/rviz
+    local-name: ros/roscpp/rviz
     uri: https://github.com/ros-visualization/rviz.git
     version: kinetic-devel
 # rosjava
@@ -28,3 +32,7 @@
     local-name: rosjava/android_core
     uri: https://github.com/rosjava/android_core.git
     version: kinetic
+- git:
+    local-name: ros/sophus_ros_toolkit
+    uri: https://github.com/stonier/sophus_ros_toolkit.git
+    version: devel

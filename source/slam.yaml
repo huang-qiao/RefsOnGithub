@@ -14,4 +14,8 @@
     local-name: pcl
     uri: https://github.com/PointCloudLibrary/pcl.git
     version: master
+- git:
+    local-name: fiducials
+    uri: https://github.com/UbiquityRobotics/fiducials.git
+    version: kinetic-devel
 
