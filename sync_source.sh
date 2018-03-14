@@ -9,4 +9,9 @@ for f in *.yaml ; do
   vcs-import --input ${f} ${OPENGROK_SRC};
 done
 
+cd ${OPENGROK_SRC}
+for d in */ ; do
+  vcs-pull
+done
+
 cd ${BASE_DIR}
