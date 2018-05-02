@@ -17,7 +17,7 @@ RUN mkdir /src
 RUN mkdir /data
 RUN ln -s /data /var/opengrok
 RUN ln -s /src /var/opengrok/src
-ARG OPENGROK_VERSION=1.1-rc22
+ARG OPENGROK_VERSION=1.1-rc25
 RUN wget "https://github.com/OpenGrok/OpenGrok/releases/download/${OPENGROK_VERSION}/opengrok-${OPENGROK_VERSION}.tar.gz" -O /tmp/opengrok-${OPENGROK_VERSION}.tar.gz
 RUN tar zxvf /tmp/opengrok-${OPENGROK_VERSION}.tar.gz -C /
 
