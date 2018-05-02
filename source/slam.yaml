@@ -18,4 +18,8 @@
     local-name: fiducials
     uri: https://github.com/UbiquityRobotics/fiducials.git
     version: kinetic-devel
+- git:
+    local-name: Autoware
+    uri: https://github.com/CPFL/Autoware.git
+    version: develop
 
