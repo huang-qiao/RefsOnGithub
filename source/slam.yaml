@@ -1,6 +1,10 @@
 - git:
-    local-name: cartographer
+    local-name: googlecartographer/cartographer
     uri: https://github.com/googlecartographer/cartographer.git
+    version: master
+- git:
+    local-name: googlecartographer/cartographer_ros
+    uri: https://github.com/googlecartographer/cartographer_ros.git
     version: master
 - git:
     local-name: rtabmap
