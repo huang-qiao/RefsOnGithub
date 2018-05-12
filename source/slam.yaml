@@ -26,4 +26,8 @@
     local-name: Autoware
     uri: https://github.com/CPFL/Autoware.git
     version: develop
+- git:
+    local-name: apollo
+    uri: https://github.com/ApolloAuto/apollo.git
+    version: master
 
