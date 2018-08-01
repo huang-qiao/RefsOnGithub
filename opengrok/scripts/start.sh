@@ -5,7 +5,11 @@ start_opengrok(){
     while ! ( ps aux|grep -q org.apache.catalina.startup.Bootstrap ); do
         sleep 1;
     done
-    OpenGrok index /src
+    /opengrok/bin/indexer.py -C -J=-Djava.util.logging.config.file=/var/opengrok/logging.properties \
+    -a /opengrok/lib/opengrok.jar -- \
+    -s /var/opengrok/src -d /var/opengrok/data -H -P -S -G \
+    -W /var/opengrok/etc/configuration.xml \
+    -U http://localhost:8080
 }
 
 service tomcat8 start
