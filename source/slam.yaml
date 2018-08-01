@@ -26,16 +26,7 @@
     local-name: Autoware
     uri: https://github.com/CPFL/Autoware.git
     version: develop
-- git:
-    local-name: apollo
-    uri: https://github.com/ApolloAuto/apollo.git
-    version: master
-- git:
-    local-name: rovio
-    uri: https://github.com/ethz-asl/rovio.git
-    version: master
-- git:
-    local-name: vins-mono
-    uri: https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git
-    version: master
-
+# - git:
+#     local-name: apollo
+#     uri: https://github.com/ApolloAuto/apollo.git
+#     version: master

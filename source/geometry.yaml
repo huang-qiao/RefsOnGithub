@@ -1,9 +1,8 @@
-- git:
-    local-name: geometry/Eigen
-    uri: https://github.com/eigenteam/eigen-git-mirror.git
-    version: master
+# - git:
+#     local-name: geometry/Eigen
+#     uri: https://github.com/eigenteam/eigen-git-mirror.git
+#     version: master
 - git:
     local-name: geometry/Sophus
     uri: https://github.com/strasdat/Sophus.git
     version: master
-

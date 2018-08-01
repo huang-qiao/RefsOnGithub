@@ -1,8 +1,8 @@
-- git:
-    local-name: kalibr
-    uri: https://github.com/ethz-asl/kalibr.git
-    version: master
-- git:
-    local-name: lidar_camera_calibration
-    uri: https://github.com/ankitdhall/lidar_camera_calibration.git
-    version: master
+# - git:
+#     local-name: kalibr
+#     uri: https://github.com/ethz-asl/kalibr.git
+#     version: master
+# - git:
+#     local-name: lidar_camera_calibration
+#     uri: https://github.com/ankitdhall/lidar_camera_calibration.git
+#     version: master

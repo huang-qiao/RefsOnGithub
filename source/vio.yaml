@@ -1,0 +1,8 @@
+- git:
+    local-name: rovio
+    uri: https://github.com/ethz-asl/rovio.git
+    version: master
+- git:
+    local-name: vins-mono
+    uri: https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git
+    version: master

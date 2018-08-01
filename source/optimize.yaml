@@ -1,9 +1,8 @@
-- git:
-    local-name: ceres-solver
-    uri: https://github.com/ceres-solver/ceres-solver.git
-    version: master
-- git:
-    local-name: gtsam
-    uri: https://bitbucket.org/gtborg/gtsam.git
-    version: develop
-
+# - git:
+#     local-name: ceres-solver
+#     uri: https://github.com/ceres-solver/ceres-solver.git
+#     version: master
+# - git:
+#     local-name: gtsam
+#     uri: https://bitbucket.org/gtborg/gtsam.git
+#     version: develop 
