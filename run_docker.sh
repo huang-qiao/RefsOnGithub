@@ -6,6 +6,7 @@ OPENGROK_DATA=${BASE_DIR}/opengrok/data
 OPENGROK_ETC=${BASE_DIR}/opengrok/etc
 OPENGROK_LOG=${BASE_DIR}/opengrok/log
 
+#docker run -it --rm \
 docker run -td --rm \
   --privileged=true \
   --volume="${OPENGROK_SRC}:/var/opengrok/src" \

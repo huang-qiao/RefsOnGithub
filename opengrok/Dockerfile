@@ -13,7 +13,7 @@ RUN apt-get install -y --no-install-recommends \
   tomcat8 \
   wget
 
-ARG OPENGROK_VERSION=1.1-rc38
+ARG OPENGROK_VERSION=1.1-rc37
 ENV PATH /opengrok-${OPENGROK_VERSION}/bin:$PATH
 RUN wget "https://github.com/OpenGrok/OpenGrok/releases/download/${OPENGROK_VERSION}/opengrok-${OPENGROK_VERSION}.tar.gz" -O /tmp/opengrok-${OPENGROK_VERSION}.tar.gz
 RUN tar zxvf /tmp/opengrok-${OPENGROK_VERSION}.tar.gz -C /
