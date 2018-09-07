@@ -1,6 +1,11 @@
-## SouceNav = docker + opengrok + vcs-tools
+## EasyGrok = docker + opengrok + vcs-tools
 
-This project makes it easier to navigate source code.
+This project simplifies the procedure to setup opengrok for source code navigation.
+
+#### dependencies
+1. git
+2. python-vcs
+3. docker-ce
 
 #### usage:
 ##### 1. edit interested repositories
