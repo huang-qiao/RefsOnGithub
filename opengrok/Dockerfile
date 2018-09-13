@@ -13,8 +13,9 @@ RUN apt-get install -y --no-install-recommends \
   tomcat8 \
   wget
 
-ARG OPENGROK_VERSION=1.1-rc37
-ENV PATH /opengrok-${OPENGROK_VERSION}/bin:$PATH
+ARG OPENGROK_VERSION=1.0
+#ENV PATH /opengrok-${OPENGROK_VERSION}/bin:$PATH
+ENV PATH /opengrok/bin:$PATH
 RUN wget "https://github.com/OpenGrok/OpenGrok/releases/download/${OPENGROK_VERSION}/opengrok-${OPENGROK_VERSION}.tar.gz" -O /tmp/opengrok-${OPENGROK_VERSION}.tar.gz
 RUN tar zxvf /tmp/opengrok-${OPENGROK_VERSION}.tar.gz -C /
 
@@ -32,7 +33,8 @@ ENV CLASSPATH /usr/share/tomcat8/bin/bootstrap.jar:/usr/share/tomcat8/bin/tomcat
 
 WORKDIR $CATALINA_HOME
 RUN mv /opengrok-${OPENGROK_VERSION} /opengrok
-RUN /opengrok/bin/deploy.py /opengrok/lib/source.war /var/lib/tomcat8/webapps
+#RUN /opengrok/bin/deploy.py /opengrok/lib/source.war /var/lib/tomcat8/webapps
+RUN /opengrok/bin/OpenGrok deploy
 
 EXPOSE 8080
 ADD scripts /scripts
