@@ -8,15 +8,13 @@ This project simplifies the procedure to setup opengrok for source code navigati
 3. docker-ce
 
 #### usage:
-##### 1. edit interested repositories
-    vi source/<YAML file>
-##### 2. download repositories
-    ./sync_source.sh
-##### 3. build docker image (only need to do once on each machine)
+##### 1. download target repositories to opengrok/src
+    git clone <repo_url> opengrok/src/<target_folder>
+##### 2. build docker image (only need to do once on each machine)
     ./build_docker.sh
-##### 4. run docker image
+##### 3. run docker image
     ./run_docker.sh
-##### 5. browse the repositories on http://localhost:8080/source
+##### 4. browse the repositories on http://localhost:8080/source
 
 #### branches:
 - master: commits related to opengrok and docker
